@@ -469,7 +469,7 @@ OpenClaw in Cloudflare Sandbox uses multiple authentication layers:
 
 **WebSocket issues in local development:** `wrangler dev` has known limitations with WebSocket proxying through the sandbox. HTTP requests work but WebSocket connections may fail. Deploy to Cloudflare for full functionality.
 
-## Known Issues
+## Known Issues-
 
 ### Windows: Gateway fails to start with exit code 126 (permission denied)
 
