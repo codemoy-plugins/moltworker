@@ -5,7 +5,7 @@
   "compatibility_date": "2025-05-06",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "MOLTBOT_AUTH_METHOD": "cfaccess"
+    "MOLTBOT_AUTH_METHOD": "token"
   },
   "observability": {
     "enabled": true
