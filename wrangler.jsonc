@@ -5,7 +5,7 @@
   "compatibility_date": "2025-05-06",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "MOLTBOT_AUTH_METHOD": "token" // 👈 "나 비밀번호(토큰) 방식 쓸 거야"라고 명시
+    "MOLTBOT_AUTH_METHOD": "cfaccess"
   },
   "observability": {
     "enabled": true
@@ -57,7 +57,7 @@
   "r2_buckets": [
     {
       "binding": "MOLTBOT_BUCKET",
-      "bucket_name": "moltbot-bucket" // 👈 아까 만드신 실제 버킷 이름으로 수정!
+      "bucket_name": "moltbot-bucket"
     }
   ],
   "triggers": {
